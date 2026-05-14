@@ -16,3 +16,6 @@ __pycache__/
 
 # Flask instance
 instance/
+
+#file
+config.py
