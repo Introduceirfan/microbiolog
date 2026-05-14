@@ -2,7 +2,7 @@
 .venv/
 venv/
 env/
-
+.flaskenv
 # Database
 *.db
 *.sqlite3
