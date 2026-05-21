@@ -19,3 +19,4 @@ instance/
 
 #file
 config.py
+logs/
