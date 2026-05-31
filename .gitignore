@@ -20,3 +20,4 @@ instance/
 #file
 config.py
 logs/
+.claudecodesignore
