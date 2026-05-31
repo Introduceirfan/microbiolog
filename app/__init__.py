@@ -12,8 +12,9 @@ from flask_moment import Moment
 from flask_babel import Babel
 
 def get_locale():
-    return request.accept_languages.best_match(app.config['Languages'])
-    
+    #return request.accept_languages.best_match(app.config['Languages'])
+    return 'id'
+
 app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
